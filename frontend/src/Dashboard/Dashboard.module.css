@@ -1,0 +1,109 @@
+.upcoming__card {
+  margin: 20px;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardDisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.left {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+.action {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.right {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  height: min-content;
+  width: 30%;
+  display: flex;
+  border-radius: 20px;
+  padding: 80px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+}
+.dummy {
+  height: 250px;
+  position: fixed;
+  bottom: 20px;
+}
+.submit {
+  color: white;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 50px;
+  border: none;
+}
+.action {
+  margin-top: 30px;
+  width: 100%;
+}
+.joinButton {
+  width: 180px;
+  padding: 15px;
+  color: #f37335;
+  border-radius: 15px;
+  border: 2px solid linear-gradient(to right, #f37335, #fdc830);
+}
+.submitButton {
+  margin-left: 20px;
+  width: 180px;
+  padding: 15px;
+  color: white;
+  background: lightgrey;
+  border-radius: 15px;
+  color: white;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+}
+.smallHeader {
+  color: lightgrey;
+  font-size: small;
+}

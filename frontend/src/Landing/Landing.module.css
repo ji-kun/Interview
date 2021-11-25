@@ -1,0 +1,67 @@
+.right {
+  padding: 80px 30px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.header {
+  font-size: 60px;
+}
+.smallheader {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.image {
+  height: 450px;
+  position: fixed;
+  bottom: 20px;
+}
+
+.forms {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: auto;
+  width: 600px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+}
+.submit {
+  color: white;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.formSignUp {
+  display: flex;
+  flex-direction: column;
+}
+.formSignUp input {
+  width: 400;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+}
+.formSignUp {
+  width: 400;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+}

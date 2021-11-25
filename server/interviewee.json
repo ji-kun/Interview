@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Saniya",
+        "email": "saniya@gmail.com",
+        "phone": "9128374655"
+    },
+    {
+        "name": "Kunal",
+        "email": "kunal@gmail.com",
+        "phone": "7230323446"
+    },
+    {
+        "name": "Kunji",
+        "email": "kunji@gmail.com",
+        "phone": "2435393483"
+    },
+    {
+        "name": "Palak",
+        "email": "palak@gmail.com",
+        "phone": "4234545734"
+    },
+    {
+        "name": "Manish",
+        "email": "manish@gmail.com",
+        "phone": "9128374655"
+    },
+    {
+        "name": "Harsh",
+        "email": "json@gmail.com",
+        "phone": "9128374655"
+    },
+    {
+        "name": "janana",
+        "email": "janana@gmail.com",
+        "phone": "9128374655"
+    }
+]
+// "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhbml5YUBnbWFpbC5jb20iLCJpYXQiOjE2Mzc3MDAwMjh9.xV0v9GNAfKjFDxdZ3rrpxPFeNJiQWvZ0XkvnaE19sGM",
+// {
+//     "intervieweeEmail": "janana@gmail.com",
+//     "startTime": "Wed Nov 25 2021 05:14:52 GMT+0530 (India Standard Time)",
+//     "endTime": "Wed Nov 25 2021 05:25:52 GMT+0530 (India Standard Time)",
+//     "description": "Meeting with Kunal",
+//     "meetLink": "https://meet.google.com/kcy-tkxh-gij"
+// }
+
+// {
+//     "email": "kunji@gmail.com",
+//     "password": "abcd@1234",
+//     "name": "Rohit Kunji",
+//     "phone": "8369616043"
+// }
+// "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imt1bmppQGdtYWlsLmNvbSIsImlhdCI6MTYzNzczOTEwNn0.Q9mAl8JVxengqCexOB4fzjSdfWeoSVG4KBW6nbXvJIc",
