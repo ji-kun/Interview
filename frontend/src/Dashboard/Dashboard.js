@@ -26,7 +26,7 @@ function Dashboard(props) {
   const [meetLink, setMeetLink] = useState("");
 
   const [upcoming, setUpcoming] = useState([]);
-  const [interviewees, setInterviewees] = useState([]);
+  // const [interviewees, setInterviewees] = useState([]);
 
   const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -86,18 +86,18 @@ function Dashboard(props) {
 
   // console.log("Props", props);
 
-  useEffect(() => {
-    console.log("Random");
-    Axios.get("http://localhost:8000/interviewee")
-      .then((response) => {
-        console.log(response.data);
-        setInterviewees(response.data);
-      })
-      .catch((error) => {
-        alert(error);
-        console.log("error", error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   console.log("Random");
+  //   Axios.get("http://localhost:8000/interviewee")
+  //     .then((response) => {
+  //       console.log(response.data);
+  //       setInterviewees(response.data);
+  //     })
+  //     .catch((error) => {
+  //       alert(error);
+  //       console.log("error", error);
+  //     });
+  // }, []);
 
   useEffect(() => {
     // event.preventDefault();

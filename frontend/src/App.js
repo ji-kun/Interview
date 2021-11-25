@@ -5,11 +5,9 @@ import { useState } from "react";
 
 import Landing from "./Landing/Landing";
 import Dashboard from "./Dashboard/Dashboard";
-import Modal from "react-modal";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [token, setToken] = useState("");
 
   return (
     <div className="App">

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import styles from "./Landing.module.css";
-import ReactFullpage from "@fullpage/react-fullpage";
 
 import image from "../assets/interview.svg";
 
@@ -74,7 +73,7 @@ function Landing(props) {
           Schedule interviews with interviewees and view all your upcoming
           interviews in one place.
         </h3>
-        <img src={image} alt="image" className={styles.image} />
+        <img src={image} alt="placeholders" className={styles.image} />
       </div>
       <div className={styles.forms}>
         SIGN UP
